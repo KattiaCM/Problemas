@@ -1,0 +1,52 @@
+header{
+    color: black;
+    background-color: rgb(120, 170, 220);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    line-height: 100px;
+    border-bottom: 3px solid;
+    text-align: center;
+}
+
+#ContenedorG{
+    float: left;
+    width: 100%;
+    min-height: 500px;
+    background-color: rgb(120, 170, 220);
+    display: flex;
+    justify-content: left;
+}
+
+#Inst{
+    background-color:rgb(205, 255, 244);
+    width: 40%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+
+}
+
+label,input,textarea{
+    margin-bottom: 10px;
+}
+
+input,textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+button{
+    padding: 10px 20px;
+    background-color:#4e67ae;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #3e6b8e;
+}
